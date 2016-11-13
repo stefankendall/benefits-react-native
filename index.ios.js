@@ -12,19 +12,15 @@ import {
   View
 } from 'react-native';
 
-export default class benefits extends Component {
+export default class Benefits extends Component {
   render() {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to React Native!
+          This is definitely an app!
         </Text>
         <Text style={styles.instructions}>
-          To get started, edit index.ios.js
-        </Text>
-        <Text style={styles.instructions}>
-          Press Cmd+R to reload,{'\n'}
-          Cmd+D or shake for dev menu
+          What do we put here!
         </Text>
       </View>
     );
@@ -50,4 +46,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('benefits', () => benefits);
+AppRegistry.registerComponent('Benefits', () => Benefits);
